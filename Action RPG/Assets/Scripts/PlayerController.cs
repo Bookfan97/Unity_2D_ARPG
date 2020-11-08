@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 8;
     [SerializeField] private SpriteRenderer _spriteRenderer = null;
     [SerializeField] private Sprite[] playerDirectionSprite = new Sprite[0];
+    [SerializeField] private Animator weaponAnim = null;
     private Rigidbody2D _rigidbody2D = null;
     private Animator _animator;
     // Start is called before the first frame update
@@ -46,6 +47,12 @@ public class PlayerController : MonoBehaviour
                     _spriteRenderer.sprite = playerDirectionSprite[2];
                 }
             }
+        }
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log("Attack");
+            weaponAnim.SetTrigger("Attack");
         }
     }
 }
