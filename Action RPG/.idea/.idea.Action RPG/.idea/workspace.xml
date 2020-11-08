@@ -19,9 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a172fd30-1e49-4418-ab4b-bf11115d7e09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_Udemy ARPG Assets/Scene/Sandbox.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Udemy ARPG Assets/Scene/Sandbox.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    <list default="true" id="a172fd30-1e49-4418-ab4b-bf11115d7e09" name="Default Changelist" comment="Moving the player">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Action RPG/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Action RPG/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://C:/Users/shelt/Documents/GitHub/Unity_2D_ARPG/Action RPG/Assets/Scripts/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,8 +80,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604806479216</updated>
-      <workItem from="1604806497696" duration="910000" />
+      <workItem from="1604806497696" duration="1806000" />
     </task>
+    <task id="LOCAL-00001" summary="Moving the player">
+      <created>1604807559382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604807559382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,5 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Moving the player" />
+    <option name="LAST_COMMIT_MESSAGE" value="Moving the player" />
   </component>
 </project>
